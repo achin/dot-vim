@@ -2,3 +2,7 @@
 	path = bundle/VimClojure
 	url = https://github.com/vim-scripts/VimClojure.git
 	ignore = untracked
+[submodule "bundle/slimv"]
+	path = bundle/slimv
+	url = git@github.com:achin/slimv.vim.git
+	ignore = untracked
