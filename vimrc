@@ -1,11 +1,11 @@
+syntax on
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set smarttab
-syntax on
-set ai
+set autoindent
 set nocompatible
-set vb
+set visualbell
 set nohlsearch
 set showmatch
 set backspace=indent,eol,start
