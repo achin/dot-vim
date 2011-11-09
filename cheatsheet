@@ -1,0 +1,82 @@
+= Core Commands =
+w       Go to start of following word
+W       Go to start of following WORD
+e       Go to end of current word
+E       Go to end of this WORD
+<C-p>   Complete with previous
+<C-n>   Complete with next
+J       Join lines
+<       Indent left
+>       Indent right
+=       Auto indent
+fa      Go to next occurence of a on line
+,       Go to next occurence
+;       Go to previous occurence
+
+= Text Objects =
+iw  Inner word
+aw  A word
+iW  Inner WORD
+aW  A WORD
+is  Inner sentence
+as  A sentence
+ip  Inner paragraph
+ap  A paragraph
+
+= Compound Commands =
+Pattern: <action><object>
+
+diw     Delete inner word
+yaw     Yank a word
+cas     Change a sentence
+ci"     Change text within double quotes, excluding quotes
+ca"     Change text within double quotes, including quotes
+
+= Macros =
+qa  Record macro in register a
+q   Stop recording
+@a  Replay macro in register a
+@@  Replay macro in last used register
+
+= Useful Helpers =
+:set list       Show ends of lines
+:set nolist    Hides ends of lines
+
+:set number     Shows line numbers
+:set nonumber   Hides line numbers
+
+= Surround =
+ds"     Delete surrounding double quotes
+ds'     Delete surrounding quotes
+ds)     Delete surrounding parenthesis
+ds]     Delete surrounding brackets
+dst     Delete surrounding tag
+
+cs"'    Change surrounding double quotes to quotes
+cs'<p>  Change surrounding quotes to <p> tags
+cs)[    Change surrounding parenthesis to brackets with spaces padded
+
+ysiw)   You surround inner word with parenthesis
+ysaw[   You surround inner word with parenthesis with spaces padded
+
+vS"      Surround visual selection with quotes
+
+= Paredit =
+:Paredit    Toggle paredit mode
+,<          Slurp or barf towards the left
+,>          Slurp or barf towards the right
+,J          Join adjacent
+,O          Open/split surrounding
+,w(         Wrap current symbol in parenthesis
+,w{         Wrap current symbol in braces
+,w"         Wrap current symbol in double quotes
+,S          Splice current symbol
+
+= Command-T=
+:CommandT   Open Command-T prompt
+<Command-T> Open Command-T prompt
+:cd         Change working directory
+:pwd        Print working directory
+
+= Pathogen =
+:Helptags   Regenerate all help tags
