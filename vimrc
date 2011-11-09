@@ -9,5 +9,7 @@ set vb
 set nohlsearch
 set showmatch
 set backspace=indent,eol,start
+
 filetype plugin indent on
 call pathogen#infect()
+command Paredit call PareditToggle()
