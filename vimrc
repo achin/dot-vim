@@ -24,8 +24,6 @@ highlight SpecialKey ctermfg=7 guifg=gray
 nnoremap j gj
 nnoremap k gk
 
-DoMatchParen
-
 if has('autocmd')
     autocmd filetype html set tabstop=2
     autocmd filetype html set shiftwidth=2
