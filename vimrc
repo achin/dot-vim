@@ -32,6 +32,8 @@ if version >= 703
     set relativenumber
 endif
 
+let g:LustyJugglerSuppressRubyWarning = 1
+
 filetype plugin indent on
 call pathogen#infect()
 command Paredit call PareditToggle()
