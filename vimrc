@@ -24,8 +24,8 @@ nnoremap j gj
 nnoremap k gk
 
 if has('autocmd')
-    autocmd filetype html set tabstop=2
-    autocmd filetype html set shiftwidth=2
+    autocmd filetype html,xml set tabstop=2
+    autocmd filetype html,xml set shiftwidth=2
 endif
 
 if version >= 703
