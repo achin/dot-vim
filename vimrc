@@ -13,6 +13,8 @@ set cursorline
 set relativenumber
 set ignorecase
 set smartcase
+set wildmenu
+set wildmode=longest:full
 set list
 set listchars=tab:▸\ ,eol:¬
 highlight NonText ctermfg=7 guifg=gray
