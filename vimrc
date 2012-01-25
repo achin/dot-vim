@@ -10,7 +10,6 @@ set visualbell
 set nohlsearch
 set showmatch
 set backspace=indent,eol,start
-set cursorline
 set ignorecase
 set smartcase
 set wildmenu

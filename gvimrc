@@ -7,4 +7,5 @@ endif
 
 if has("gui_running")
     set guioptions=emgrt
+    set cursorline
 endif
