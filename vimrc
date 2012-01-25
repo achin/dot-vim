@@ -33,6 +33,7 @@ if version >= 703
 endif
 
 let g:LustyJugglerSuppressRubyWarning = 1
+let g:LustyJugglerShowKeys = 1
 
 filetype plugin indent on
 call pathogen#infect()
