@@ -16,8 +16,6 @@ set wildmenu
 set wildmode=longest:full
 set list
 set listchars=tab:▸\ ,eol:¬
-highlight NonText ctermfg=7 guifg=gray
-highlight SpecialKey ctermfg=7 guifg=gray
 
 nnoremap j gj
 nnoremap k gk
@@ -38,4 +36,12 @@ let g:LustyJugglerShowKeys = 1
 
 filetype plugin indent on
 call pathogen#infect()
+
+colorscheme solarized
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+
 command Paredit call PareditToggle()
