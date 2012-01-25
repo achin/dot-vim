@@ -23,6 +23,8 @@ highlight SpecialKey ctermfg=7 guifg=gray
 nnoremap j gj
 nnoremap k gk
 
+let mapleader = ","
+
 if has('autocmd')
     autocmd filetype html,xml set tabstop=2
     autocmd filetype html,xml set shiftwidth=2
