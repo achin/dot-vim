@@ -21,6 +21,8 @@ nnoremap k gk
 
 let mapleader = ","
 
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
 if has('autocmd')
     autocmd filetype html,xml setlocal tabstop=2
     autocmd filetype html,xml setlocal shiftwidth=2
