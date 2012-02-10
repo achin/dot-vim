@@ -13,6 +13,7 @@ set ignorecase
 set smartcase
 set wildmenu
 set wildmode=longest:full
+set spell
 set list
 set listchars=tab:▸\ ,eol:¬
 
@@ -22,6 +23,7 @@ nnoremap k gk
 let mapleader = ","
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>s :set spell!<cr>
 
 if has('autocmd')
     autocmd filetype html,xml setlocal tabstop=2
