@@ -22,8 +22,8 @@ nnoremap k gk
 let mapleader = ","
 
 if has('autocmd')
-    autocmd filetype html,xml set tabstop=2
-    autocmd filetype html,xml set shiftwidth=2
+    autocmd filetype html,xml setlocal tabstop=2
+    autocmd filetype html,xml setlocal shiftwidth=2
 endif
 
 if version >= 703
