@@ -16,6 +16,7 @@ set wildmode=longest:full
 set spell
 set list
 set listchars=tab:▸\ ,eol:¬
+set ruler
 
 nnoremap j gj
 nnoremap k gk
