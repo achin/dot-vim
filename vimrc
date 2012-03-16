@@ -15,8 +15,14 @@ set wildmenu
 set wildmode=longest:full
 set spell
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,
 set ruler
+
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 nnoremap j gj
 nnoremap k gk
