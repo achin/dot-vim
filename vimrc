@@ -51,6 +51,8 @@ endif
 let g:LustyJugglerSuppressRubyWarning = 1
 let g:LustyJugglerShowKeys = 1
 
+let g:paredit_electric_return = 0
+
 filetype plugin indent on
 call pathogen#infect()
 
