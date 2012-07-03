@@ -19,6 +19,7 @@ set listchars=tab:▸\ ,
 set ruler
 set formatoptions=qrn1
 set colorcolumn=85
+set splitright
 
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
