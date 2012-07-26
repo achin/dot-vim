@@ -1,4 +1,6 @@
 syntax on
+filetype plugin indent on
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -54,7 +56,11 @@ let g:LustyJugglerShowKeys = 1
 
 let g:paredit_electric_return = 0
 
-filetype plugin indent on
+let vimclojure#FuzzyIndentPatterns = 1
+" let vimclojure#WantNailgun = 1
+
+set path+=src/**,test/**
+
 call pathogen#infect()
 
 colorscheme solarized
