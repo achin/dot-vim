@@ -40,6 +40,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 let mapleader = ","
+let maplocalleader = ","
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>s :set spell!<cr>
@@ -58,7 +59,7 @@ let g:LustyJugglerShowKeys = 1
 
 let g:paredit_electric_return = 0
 
-let vimclojure#FuzzyIndentPatterns = 1
+let vimclojure#FuzzyIndent = 1
 " let vimclojure#WantNailgun = 1
 
 set path+=src/**,test/**
