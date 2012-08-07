@@ -15,6 +15,7 @@ set ignorecase
 set smartcase
 set wildmenu
 set wildmode=longest:full
+set wildignore+=*/tmp/*,*.class,*.swp,*.jar
 set spell
 set list
 set listchars=tab:▸\ ,
