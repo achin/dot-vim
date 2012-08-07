@@ -62,6 +62,14 @@ let vimclojure#FuzzyIndentPatterns = 1
 
 set path+=src/**,test/**
 
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'rc'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.svn$',
+  \ 'file': '\.class$'
+  \ }
+
 call pathogen#infect()
 
 colorscheme solarized
