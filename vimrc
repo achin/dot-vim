@@ -23,6 +23,7 @@ set formatoptions=qrn1
 set colorcolumn=85
 set splitright
 
+autocmd ColorScheme * highlight LineNr ctermfg=6 ctermbg=100
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
