@@ -41,6 +41,7 @@ nnoremap <C-l> <C-w>l
 
 let mapleader = ","
 let maplocalleader = ","
+nnoremap \ ,
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>s :set spell!<cr>
