@@ -8,7 +8,8 @@ set smarttab
 set autoindent
 set nocompatible
 set visualbell
-set nohlsearch
+set hlsearch
+set incsearch
 set showmatch
 set backspace=indent,eol,start
 set ignorecase
@@ -42,6 +43,8 @@ nnoremap <C-l> <C-w>l
 let mapleader = ","
 let maplocalleader = ","
 nnoremap \ ,
+
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>s :set spell!<cr>
