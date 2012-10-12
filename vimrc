@@ -54,10 +54,6 @@ if has('autocmd')
     autocmd filetype html,xml setlocal shiftwidth=2
 endif
 
-if version >= 703
-    set relativenumber
-endif
-
 let g:LustyJugglerSuppressRubyWarning = 1
 let g:LustyJugglerShowKeys = 1
 
@@ -79,11 +75,7 @@ let g:ctrlp_custom_ignore = {
 call pathogen#infect()
 
 colorscheme solarized
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
+set background=light
 
 command Paredit call PareditToggle()
 
