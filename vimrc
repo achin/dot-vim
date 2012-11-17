@@ -60,8 +60,6 @@ endif
 let g:LustyJugglerSuppressRubyWarning = 1
 let g:LustyJugglerShowKeys = 1
 
-let g:paredit_electric_return = 0
-
 let vimclojure#FuzzyIndent = 1
 " let vimclojure#WantNailgun = 1
 
@@ -79,8 +77,6 @@ call pathogen#infect()
 
 colorscheme solarized
 set background=light
-
-command Paredit call PareditToggle()
 
 function! <SID>StripTrailingWhitespace()
     " Preparation: save last search, and cursor position.
