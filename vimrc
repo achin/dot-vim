@@ -52,6 +52,8 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>s :set spell!<cr>
 
+nmap <leader>es vabo<leader>eb<cr>
+
 if has('autocmd')
     autocmd filetype html,xml setlocal tabstop=2
     autocmd filetype html,xml setlocal shiftwidth=2
