@@ -54,6 +54,8 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>s :set spell!<cr>
 
+nmap <leader>W ys))
+nmap <leader>S ds)
 nmap <leader>es vabo<leader>eb<cr>
 
 if has('autocmd')
