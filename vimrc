@@ -34,6 +34,9 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
+autocmd filetype html,xml setlocal tabstop=2
+autocmd filetype html,xml setlocal shiftwidth=2
+
 nnoremap j gj
 nnoremap k gk
 
@@ -57,11 +60,6 @@ nnoremap <leader>s :set spell!<cr>
 nmap <leader>W ys))
 nmap <leader>S ds)
 nmap <leader>es vabo<leader>eb<cr>
-
-if has('autocmd')
-    autocmd filetype html,xml setlocal tabstop=2
-    autocmd filetype html,xml setlocal shiftwidth=2
-endif
 
 let g:LustyJugglerSuppressRubyWarning = 1
 let g:LustyJugglerShowKeys = 1
