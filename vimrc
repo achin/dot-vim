@@ -64,9 +64,6 @@ nmap <leader>es vabo<leader>eb<cr>
 let g:LustyJugglerSuppressRubyWarning = 1
 let g:LustyJugglerShowKeys = 1
 
-let vimclojure#FuzzyIndent = 1
-let vimclojure#WantNailgun = 1
-
 set path+=src/**,test/**
 
 let g:ctrlp_map = '<c-p>'
