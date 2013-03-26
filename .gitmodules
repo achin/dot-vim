@@ -1,7 +1,3 @@
-[submodule "bundle/VimClojure"]
-	path = bundle/VimClojure
-	url = https://github.com/vim-scripts/VimClojure.git
-	ignore = untracked
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
@@ -34,9 +30,22 @@
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+	ignore = untracked
 [submodule "bundle/zencoding"]
 	path = bundle/zencoding
 	url = https://github.com/mattn/zencoding-vim.git
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/clojure-static"]
+	path = bundle/clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+	ignore = untracked
+[submodule "bundle/foreplay"]
+	path = bundle/foreplay
+	url = https://github.com/tpope/vim-foreplay.git
+	ignore = untracked
+[submodule "bundle/classpath"]
+	path = bundle/classpath
+	ignore = untracked
+	url = git://github.com/tpope/vim-classpath.git
