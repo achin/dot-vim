@@ -24,8 +24,8 @@ set ruler
 set formatoptions=qrn1
 set colorcolumn=85
 set splitright
-set mouse=a
 set laststatus=2
+set tags=tags;
 
 autocmd ColorScheme * highlight LineNr ctermfg=6 ctermbg=100
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
