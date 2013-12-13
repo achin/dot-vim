@@ -40,6 +40,8 @@ autocmd filetype html,xml setlocal shiftwidth=2
 nnoremap j gj
 nnoremap k gk
 
+nnoremap Y y$
+
 inoremap jj <ESC>
 
 nnoremap <C-h> <C-w>h
