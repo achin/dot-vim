@@ -70,6 +70,8 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.class$'
   \ }
 
+let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^facts\?']
+
 call pathogen#infect()
 
 colorscheme solarized
