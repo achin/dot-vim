@@ -70,7 +70,7 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.class$'
   \ }
 
-let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^facts\?']
+let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^facts\?', '^against-background']
 
 call pathogen#infect()
 
