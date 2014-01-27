@@ -46,9 +46,6 @@
 	path = bundle/classpath
 	ignore = untracked
 	url = https://github.com/tpope/vim-classpath.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
 	url = https://github.com/Lokaltog/vim-easymotion

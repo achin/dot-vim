@@ -58,7 +58,6 @@ nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>eV :e $MYVIMRC<cr>
 nnoremap <leader>s :set spell!<cr>
-nnoremap <leader>t :NERDTreeToggle<cr>
 
 set path+=src/**,test/**
 
