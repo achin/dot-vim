@@ -26,6 +26,7 @@ set colorcolumn=85
 set splitright
 set laststatus=2
 set tags=tags;
+set scrolloff=10
 
 autocmd ColorScheme * highlight LineNr ctermfg=6 ctermbg=100
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
@@ -69,7 +70,7 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.class$'
   \ }
 
-let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^facts\?', '^against-background']
+let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^facts\?', '^against-background', 'GET', 'POST', 'DELETE', 'ANY']
 
 call pathogen#infect()
 
