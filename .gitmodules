@@ -71,3 +71,6 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/signature"]
+	path = bundle/signature
+	url = https://github.com/kshenoy/vim-signature.git

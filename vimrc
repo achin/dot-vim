@@ -30,6 +30,7 @@ set scrolloff=10
 
 autocmd ColorScheme * highlight LineNr ctermfg=6 ctermbg=100
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * hi! link SignColumn LineNr
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
