@@ -74,3 +74,6 @@
 [submodule "bundle/signature"]
 	path = bundle/signature
 	url = https://github.com/kshenoy/vim-signature.git
+[submodule "bundle/less"]
+	path = bundle/less
+	url = https://github.com/groenewege/vim-less.git
