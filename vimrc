@@ -41,6 +41,8 @@ autocmd BufWinEnter * silent! :%foldopen!
 autocmd filetype html,xml setlocal tabstop=2
 autocmd filetype html,xml setlocal shiftwidth=2
 
+autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
+
 nnoremap j gj
 nnoremap k gk
 
