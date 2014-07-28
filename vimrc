@@ -27,6 +27,7 @@ set splitright
 set laststatus=2
 set tags=tags;
 set scrolloff=10
+set foldlevel=99
 
 autocmd ColorScheme * highlight LineNr ctermfg=6 ctermbg=100
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
@@ -35,6 +36,7 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
+autocmd BufWinEnter * silent! :%foldopen!
 
 autocmd filetype html,xml setlocal tabstop=2
 autocmd filetype html,xml setlocal shiftwidth=2
